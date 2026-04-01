@@ -149,12 +149,21 @@ h6,
 .service-item {
     position: relative;
     overflow: hidden;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: .3s;
+}
+
+.servicesimg {
+    opacity: 80%;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 10px 8px rgba(0,0,0,0.27); 
+box-shadow: 1px 1px 10px 8px rgba(0,0,0,0.27);
 }
 
 .service-item::after {
